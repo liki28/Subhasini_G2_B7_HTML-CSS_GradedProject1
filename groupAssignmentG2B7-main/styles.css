@@ -1,0 +1,88 @@
+body{
+    margin: 0%;
+    background-color:rgb(251, 248, 248);
+}
+#imagem{
+    position: fixed;
+    right: 100px;
+    width: 50%;
+    display: block;
+    float: right;
+    height: 600px;
+    overflow: scroll;    
+}
+
+fieldset{
+    background-color: rgb(238, 233, 233);
+    width: 40%;
+}
+  
+legend {
+    background-color: rgb(193, 183, 183);
+    color: white;
+    padding: 5px 10px;
+    width: fit-content;
+    min-width: fit-content;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+input {
+    
+    margin: 10px;
+    padding: 5px;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 10px;
+    border-bottom: 2px solid rgb(150, 162, 150);
+    outline: 10px solid white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: normal;
+}
+
+option, #district, #hardCopy{
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(214, 201, 201);
+    border-radius: 5px;
+}
+.main{
+    border: 5px solid white;
+    height: 600px;
+    width: 100%;
+    overflow: scroll;
+    box-shadow: black;
+}
+h2 {
+    color: black;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    padding: 20px;
+}
+.btn{
+    margin: 20px;
+    width: 100px;
+    border-radius: 4px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    background-color: rgb(175, 102, 243);
+    vertical-align: auto;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: aqua;
+    background-color: grey;
+}
+#somecnt{
+    text-align: center;
+}
